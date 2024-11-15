@@ -1,6 +1,11 @@
 import "./App.css";
 import ImgExperience from "/public/experience.svg";
 import HeaderLogo from "/public/header-logo.svg";
+import Implement from "/public/implement.svg";
+import Stat from "/public/stat.svg";
+import LastSectionImg from "/public/last-section-img.png";
+import NavigationBottomImg from "/public/navigation-bottom-img.png";
+import NavigationLeftSideImg from "/public/navigation-left-side-img.png";
 
 function App() {
   return (
@@ -47,16 +52,8 @@ function App() {
             </div>
           </div>
         </nav>
-        <img
-          className="nav-left-side-img"
-          src="../public/navigation-left-side-img.png"
-          alt=""
-        />
-        <img
-          className="nav-bottom-img"
-          src="../public/navigation-bottom-img.png"
-          alt=""
-        />
+        <img className="nav-left-side-img" src={NavigationLeftSideImg} alt="" />
+        <img className="nav-bottom-img" src={NavigationBottomImg} alt="" />
       </header>
       <main>
         <section>
@@ -80,7 +77,7 @@ function App() {
                       </div>
                     </div>
                     <div className="experience">
-                      <img src="../public/implement.svg" alt="" />
+                      <img src={Implement} alt="" />
                       <div className="experience-content">
                         <h2>Easy to Implement</h2>
                         <p>
@@ -88,9 +85,9 @@ function App() {
                           implementation meaning our teams always deliver.
                         </p>
                       </div>
-                    </div>{" "}
+                    </div>
                     <div className="experience">
-                      <img src="../public/stat.svg" alt="" />
+                      <img src={Stat} alt="" />
                       <div className="experience-content">
                         <h2>Enhanced Productivity</h2>
                         <p>
@@ -103,11 +100,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <img
-              className="last-section-img"
-              src="../public/last-section-img.png"
-              alt=""
-            />
+            <img className="last-section-img" src={LastSectionImg} alt="" />
           </div>
         </section>
       </main>
