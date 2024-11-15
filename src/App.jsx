@@ -1,5 +1,6 @@
 import "./App.css";
 import ImgExperience from "/public/experience.svg";
+import HeaderLogo from "/public/header-logo.svg";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
           <div className="menu">
             <div className="logo-and-links">
               <div className="logo">
-                <img src="../public/header-logo.svg" alt="" />
+                <img src={HeaderLogo} alt="" />
               </div>
               <div className="links">
                 <ul>
