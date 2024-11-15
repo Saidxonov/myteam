@@ -1,5 +1,5 @@
 import "./App.css";
-import ImgExperience from "./public/experinece.svg";
+import ImgExperience from "/public/experience.svg";
 
 function App() {
   return (
