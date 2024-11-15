@@ -1,4 +1,5 @@
 import "./App.css";
+import ImgExperience from "./public/experinece.svg";
 
 function App() {
   return (
@@ -68,7 +69,7 @@ function App() {
                 <div className="right-side">
                   <div className="stats">
                     <div className="experience first-experience">
-                      <img src="../public/experience.svg" alt="" />
+                      <img src={ImgExperience} alt="" />
                       <div className="experience-content">
                         <h2>Experienced Individuals</h2>
                         <p>
